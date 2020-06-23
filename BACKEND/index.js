@@ -13,7 +13,7 @@ const app = express();
 require('./database');
 
 //Configuraciones
-app.set('port', 3000);
+app.set('port', process.env.PORT || 3000);
 
 //Middelwares
 app.use(morgan('dev'));
