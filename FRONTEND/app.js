@@ -1,4 +1,3 @@
-import './styles/app.css';
 import UI from './UI';
 
 document.addEventListener('DOMContentLoaded', () =>{
