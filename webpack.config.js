@@ -12,7 +12,7 @@ module.exports = {
         filename: 'js/bundle.js'
     },
 
-    mode: 'production',
+    mode: 'development',
 
     module: {
         rules: [
