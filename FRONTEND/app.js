@@ -22,7 +22,7 @@ document.getElementById('book-form')
         formData.append('isbn', isbn);
 
         const ui = new UI();
-        ui.newBook(formData);
+        ui.newBook(title, author, isbn);
         ui.renderMessage('Libro Agregado', 'success', 3000);
 
         e.preventDefault();
