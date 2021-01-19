@@ -1,3 +1,6 @@
+import "./styles/app.css";
+
+import Book from './models/Book.js';
 import UI from './UI';
 
 document.addEventListener('DOMContentLoaded', () =>{
